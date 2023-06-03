@@ -1,24 +1,20 @@
 import { useState } from 'react'
 import './App.css';
 
-function App() {
-  
-  const cat = 1;
+let post = '강남 우동 맛집';
 
-  function hi(){
-    console.log("hihi");
-  }
-if(cat == 1){
+function App() {
     return(
-      <>
-        {
-          cat === 0 ? <div>hihi</div> : <button>hihi</button>
-        }
-        <button onClick={hi} className='hihi' >asfasgasg</button>
-        <div>안녀ㅛㅇ</div>
-      </>
+      <div className="App">
+        <div className="black-nav">
+          <h4>블로그</h4>
+        </div>
+        <div className="list">
+          <h4>글제목</h4>
+          <p>2월 17일 발행</p>
+        </div>  
+      </div>
     );
   }
-}
 
 export default App;
