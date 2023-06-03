@@ -1,18 +1,24 @@
-import logo from './logo.svg';
+import { useState } from 'react'
 import './App.css';
 
 function App() {
-  let a = 1;
-  const onClickButton = () => {
-    a++;
-    console.log(a)
+  
+  const cat = 1;
+
+  function hi(){
+    console.log("hihi");
   }
-  return (
-    <>
-      <p>{a}</p>
-      <button onClick={onClickButton}>+1</button>
-    </>
-  );
+if(cat == 1){
+    return(
+      <>
+        {
+          cat === 0 ? <div>hihi</div> : <button>hihi</button>
+        }
+        <button onClick={hi} className='hihi' >asfasgasg</button>
+        <div>안녀ㅛㅇ</div>
+      </>
+    );
+  }
 }
 
 export default App;
