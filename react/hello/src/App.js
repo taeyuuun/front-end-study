@@ -1,9 +1,11 @@
-import { useState } from 'react'
+import { useState } from 'react';
 import './App.css';
 
-let post = '강남 우동 맛집';
-
 function App() {
+
+  let post = '강남 우동 맛집';
+  useState
+
     return(
       <div className="App">
         <div className="black-nav">
