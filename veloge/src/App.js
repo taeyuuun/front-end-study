@@ -3,12 +3,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <div>
+    <div className='App'>
+      <div className='header'>
           <h3 id='velog'>velog</h3>
-          <div>
-            <img src='/img/sun.png' alt='이게 무슨일이야'></img>
-          </div>
+          <img src='/img/sun.png' className='img_sun'></img>
       </div>
     </div>
   );

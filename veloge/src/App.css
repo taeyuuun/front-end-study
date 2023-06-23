@@ -8,14 +8,25 @@
   padding-left: 50px;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  position: absolute;
+}
+
 #velog {
   font-size: 20px;
   font-family: 'Kanit', cursive;
   letter-spacing: 1px;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.img_sun{
+  width: 40px;
+  height: 40px;
 }
+
+
